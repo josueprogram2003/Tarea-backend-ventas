@@ -18,8 +18,6 @@ import com.example.repository.VentaRepository;
 @SpringBootApplication
 public class VentasApplication implements CommandLineRunner{
 	
-	@Autowired
-	private VentasApplication ve;
 	
 	@Autowired
 	private ClienteRepository clienteRepository;
@@ -51,7 +49,7 @@ public class VentasApplication implements CommandLineRunner{
 	private UsuarioRepository u;
 	
 	public static void main(String[] args) {
-		v.
+		
 	}
 
 	@Override
